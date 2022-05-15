@@ -1,6 +1,6 @@
 <?php
     if (isset($_POST['usuario'], $_POST['pass'])) :
-        require_once '../scripts/conexion.php';
+        require_once 'conexion.php';
         $usua = trim($_POST["usuario"]);
         $pass = trim($_POST["pass"]);
         $estado = "Activo";
