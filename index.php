@@ -14,7 +14,7 @@
 <body>
     <div class="login">
         <img class="imalogin" src="views/assets/logo.jpg">
-        <p>INICIE SESIÓN</p>
+        <p>INICIE SESIÓN A HA</p>
         <form action="" method="POST" id="formlogin">
             <label for="usuario" class="label-usuario"><i class="fas fa-user-secret"></i> &nbsp;Usuario</label>
             <input type="text" class="input-usuario" name="usuario" pattern="[a-zA-Z0-9]{5,12}" maxlength="12" required="" id="input-usuario" autocomplete="off">
